@@ -1,30 +1,30 @@
 import './App.css';
 
-function Header(){
-    return(
-        
-<header className="App-header">
 
-<ul class="nav">
-    <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Events</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Create-Event</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Login</a>
-    </li>
-</ul>
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-</header>
-    )
+function Header() {
+  return (
+    <header className="App-header">
+      <ul className="nav">
+        <li className="nav-item">
+          <Link to="/home" className="nav-link">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/events" className="nav-link">Events</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="#" className="nav-link">Services</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="#" className="nav-link">Create-Event</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="#" className="nav-link">Login</Link>
+        </li>
+      </ul>
+    </header>
+  );
 }
-
 export default Header;

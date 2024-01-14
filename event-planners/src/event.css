@@ -1,0 +1,36 @@
+.card-img-top{
+    width: 286.4px;
+    height: 150.6px;
+    
+}
+
+ .card {
+    flex-basis: 18rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+    
+  } 
+
+ 
+
+.event-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+.card-body {
+  background-color: rgb(36, 36, 102);
+ }
+  .card-title {
+    color: rgb(255, 255, 255);
+   
+  }
+
+ .btn-primary {
+    background-color: rgb(218, 189, 24);
+    border-color: blueviolet ;
+    color: black;
+    
+  }
