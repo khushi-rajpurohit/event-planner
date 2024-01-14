@@ -1,0 +1,23 @@
+.Home-h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 38%;
+   
+    background: linear-gradient(rgba(95, 83, 180, 0.5), rgba(105, 72, 205, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    backdrop-filter: blur(5px);
+  
+  }
+
+  .App-home {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: repeat;
+  
+  }
