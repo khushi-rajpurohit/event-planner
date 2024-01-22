@@ -9,7 +9,7 @@ function Header() {
     <header className="App-header">
       <ul className="nav">
         <li className="nav-item">
-          <Link to="/home" className="nav-link">Home</Link>
+          <Link to="/" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
           <Link to="/events" className="nav-link">Events</Link>
